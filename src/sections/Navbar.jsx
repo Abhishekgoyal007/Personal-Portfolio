@@ -15,6 +15,17 @@ function Navigation() {
         <li className='nav-li'>
             <a href='#contact' className='nav-link'>Contact</a>
         </li>
+        <li className='nav-li'>
+            <a 
+                href='https://drive.google.com/uc?export=download&id=1uPw05CQmFMwKVIBu0WqnyZfiy-pqy7QJ' 
+                className='nav-link'
+                download='Abhishek_Goyal_Resume.pdf'
+                target='_blank'
+                rel='noopener noreferrer'
+            >
+                Resume
+            </a>
+        </li>
     </ul>
 }
 

@@ -30,11 +30,6 @@ export const myProjects = [
         name: "Socket.io",
         path: "/assets/logos/socketio.svg",
       },
-      {
-        id: 4,
-        name: "Web3",
-        path: "/assets/logos/web3.svg",
-      },
     ],
   },
   {
@@ -172,32 +167,34 @@ export const experiences = [
 
 export const achievements = [
   {
-    title: "Runner-up - International Hackathon",
-    description: "For building Adventurers' Arena, a Web3 multiplayer strategy game.",
+    title: "Runner-up In ShapeCraft Winner",
+    description: "Runner-up in International Hackathon name ShapeCraft Alchemist Web3 blockchain hackathon for building Adventurers' Arena.",
+    certificate: "/assets/certificates/Shape_Craft_.png",
+    isPortrait: false,
   },
   {
-    title: "Best Paper Award",
-    description: "MULTICON-W 2025 (IC-CCDS), TCET Mumbai.",
-  },
-  {
-    title: "Gold Medal",
-    description: "Best Final Year BE Project in the department.",
-  },
-  {
-    title: "ShapeCraft Alchemist Hackathon",
-    description: "Winner of Web3 blockchain hackathon.",
+    title: "Best Paper Award & Gold Medal",
+    description: "Best Paper Award at MULTICON-W 2025 (IC-CCDS) and Gold Medal for Best Final Year BE Project, TCET Mumbai.",
+    certificate: "/assets/certificates/Best-Paper.jpg",
+    isPortrait: true,
   },
   {
     title: "Hacker House Goa",
     description: "One of 70 teams chosen across India for Web3 Hackathon.",
+    certificate: "/assets/certificates/Hacker-House-Goa.jpg",
+    isPortrait: false,
   },
   {
     title: "3rd Place - THINKML Challenge",
     description: "TCET Mumbai machine learning competition.",
+    certificate: "/assets/certificates/image.png",
+    isPortrait: true,
   },
   {
     title: "Hacktoberfest 2023",
     description: "Open-Source Contributor.",
+    certificate: "/assets/certificates/hacktoberfest.png",
+    isPortrait: false,
   },
 ];
 
@@ -255,7 +252,7 @@ export const reviews = [
     techStack: "Three.js",
   },
   {
-    logo: "./assets/logos/typescript.png",
+    logo: "./assets/logos/typescript.svg",
     techStack: "TypeScript",
   },
   {

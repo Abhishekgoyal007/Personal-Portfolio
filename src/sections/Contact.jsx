@@ -24,12 +24,25 @@ const Contact = () => {
   const handleSubmit = async (e)=>{
     e.preventDefault();
     setIsLoading(true);
-    // Handle form submission logic here
-    // service_pdnl8y2
-    // template_6n4dwgj
+    
+    const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID || 'service_pdnl8y2';
+    const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID || 'template_6n4dwgj';
+    const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY || 'tOBeYKGnhlRX3-AnG';
+    
     try{
         console.log("Form Data:", formData);
-        await emailjs.send('service_pdnl8y2', 'template_6n4dwgj', {form_name: formData.name, to_name: "Abhishek", form_email: formData.email, to_email: "abhishekgoyal1311@gmail.com",message: formData.message}, 'tOBeYKGnhlRX3-AnG');
+        await emailjs.send(
+          serviceId, 
+          templateId, 
+          {
+            form_name: formData.name, 
+            to_name: "Abhishek", 
+            form_email: formData.email, 
+            to_email: "abhishekgoyal1311@gmail.com",
+            message: formData.message
+          }, 
+          publicKey
+        );
         setIsLoading(false);
         setFormData({name: '', email: '', message: ''});    
         showAlertMessage("success", "Thank you. I will get back to you as soon as possible.");
@@ -39,7 +52,7 @@ const Contact = () => {
     }
   }
   return (
-    <section className='relative flex items-center c-space section-spacing'>
+    <section className='relative flex items-center c-space section-spacing' id='contact'>
         <Particles 
             className='absolute inset-0 -z-50'
             quantity={100}
