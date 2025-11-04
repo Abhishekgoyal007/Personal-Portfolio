@@ -4,8 +4,8 @@ const SEO = ({
   title = 'Abhishek Goyal - Full Stack Developer | Web3 & MERN Stack',
   description = 'Abhishek Goyal is a Full Stack Developer specializing in Web3, React, Node.js, and MongoDB. Winner of multiple hackathons with 2+ years of experience building innovative web applications.',
   keywords = 'Abhishek Goyal, Full Stack Developer, Web3 Developer, React Developer, Node.js, MERN Stack, Blockchain Developer, Software Engineer',
-  image = '/assets/og-image.jpg',
-  url = 'https://abhishekgoyal.dev'
+  image = 'https://abhishekgoyal1.vercel.app/assets/og-image.jpg',
+  url = 'https://abhishekgoyal1.vercel.app'
 }) => {
   return (
     <Helmet>
