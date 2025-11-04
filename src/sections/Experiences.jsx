@@ -1,5 +1,5 @@
 import { experiences } from '../constants'
-import { Timeline } from '../components/TimeLine'
+import { Timeline } from '../components/Timeline'
 
 const Experiences = () => {
   return (
