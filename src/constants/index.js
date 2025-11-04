@@ -201,67 +201,69 @@ export const achievements = [
   },
 ];
 
-// export const reviews = [
-//   {
-//     name: "Jack",
-//     username: "@jack",
-//     body: "I've never seen anything like this before. It's amazing. I love it.",
-//     img: "https://robohash.org/jack",
-//   },
-//   {
-//     name: "Jill",
-//     username: "@jill",
-//     body: "I don't know what to say. I'm speechless. This is amazing.",
-//     img: "https://robohash.org/jill",
-//   },
-// ];
-// export const reviews = [
-//   {
-//     name: "Jack",
-//     username: "@jack",
-//     body: "I've never seen anything like this before. It's amazing. I love it.",
-//     img: "https://robohash.org/jack",
-//   },
-//   {
-//     name: "Jill",
-//     username: "@jill",
-//     body: "I don't know what to say. I'm speechless. This is amazing.",
-//     img: "https://robohash.org/jill",
-//   },
-//   {
-//     name: "John",
-//     username: "@john",
-//     body: "I'm at a loss for words. This is amazing. I love it.",
-//     img: "https://robohash.org/john",
-//   },
-//   {
-//     name: "Alice",
-//     username: "@alice",
-//     body: "This is hands down the best thing I've experienced. Highly recommend!",
-//     img: "https://robohash.org/alice",
-//   },
-//   {
-//     name: "Bob",
-//     username: "@bob",
-//     body: "Incredible work! The attention to detail is phenomenal.",
-//     img: "https://robohash.org/bob",
-//   },
-//   {
-//     name: "Charlie",
-//     username: "@charlie",
-//     body: "This exceeded all my expectations. Absolutely stunning!",
-//     img: "https://robohash.org/charlie",
-//   },
-//   {
-//     name: "Dave",
-//     username: "@dave",
-//     body: "Simply breathtaking. The best decision I've made in a while.",
-//     img: "https://robohash.org/dave",
-//   },
-//   {
-//     name: "Eve",
-//     username: "@eve",
-//     body: "So glad I found this. It has changed the game for me.",
-//     img: "https://robohash.org/eve",
-//   },
-// ];
+export const reviews = [
+  {
+    logo: "./assets/logos/react.svg",
+    techStack: "React",
+  },
+  {
+    logo: "./assets/logos/cplusplus.svg",
+    techStack: "C++",
+  },
+  {
+    logo: "./assets/logos/javascript.svg",
+    techStack: "JavaScript",
+  },
+  {
+    logo: "./assets/logos/css3.svg",
+    techStack: "CSS3",
+  },
+  {
+    logo: "./assets/logos/github.svg",
+    techStack: "GitHub",
+  },
+  {
+    logo: "./assets/logos/git.svg",
+    techStack: "Git",
+  },
+  {
+    logo: "./assets/logos/microsoft.svg",
+    techStack: "Microsoft",
+  },
+  {
+    logo: "./assets/logos/mongodb.jpeg",
+    techStack: "MongoDB",
+  },
+  {
+    logo: "./assets/logos/mysql.jpeg",
+    techStack: "MySQL",
+  },
+  {
+    logo: "./assets/logos/nodejs.svg",
+    techStack: "Node.js",
+  },
+  {
+    logo: "./assets/logos/stripe.svg",
+    techStack: "Stripe",
+  },
+  {
+    logo: "./assets/logos/tailwindcss.svg",
+    techStack: "Tailwind CSS",
+  },
+  {
+    logo: "./assets/logos/threejs.svg",
+    techStack: "Three.js",
+  },
+  {
+    logo: "./assets/logos/typescript.png",
+    techStack: "TypeScript",
+  },
+  {
+    logo: "./assets/logos/visualstudiocode.svg",
+    techStack: "Visual Studio",
+  },
+  {
+    logo: "./assets/logos/vitejs.svg",
+    techStack: "Vite",
+  },
+];
