@@ -96,8 +96,6 @@ const About = () => {
               className='brightness-0 invert'
               containerRef={grid2Container}
             />
-            
-            {/* Differentiators - What makes you stand out */}
             <Card
               style={{ rotate: "45deg", top: "10%", left: "75%" }}
               text="Socket.io"
@@ -113,8 +111,6 @@ const About = () => {
               image="assets/logos/mysql.jpeg"
               containerRef={grid2Container}
             />
-            
-            {/* Additional valuable skills */}
             <Card
               style={{ rotate: "-15deg", top: "40%", left: "35%" }}
               text="REST APIs"
@@ -147,15 +143,15 @@ const About = () => {
           </div>
         </div>
         {/* Grid 5 */}
-        <div className="grid-default-color grid-5">
-          <div className="z-10 w-[50%]">
-            <p className="headText mt-15">Tech Stack</p>
-            <p className="subtext mt-4">
+        <div className="grid-default-color grid-5 relative overflow-hidden">
+          <div className="z-10 w-full md:w-[50%] p-4 md:p-0">
+            <p className="headText mt-4 md:mt-15">Tech Stack</p>
+            <p className="subtext mt-2 md:mt-4">
               Specializing in MERN stack, Web3 technologies, and modern tools 
               to build scalable, production-ready applications
             </p>
           </div>
-          <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%] md:scale-125">
+          <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start-[0%] md:start-[50%] scale-100 md:scale-125 opacity-30 md:opacity-100">
             <Frameworks />
           </div>
         </div>
